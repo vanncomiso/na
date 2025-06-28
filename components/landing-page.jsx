@@ -341,7 +341,7 @@ const LandingPage = () => {
   });
 
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden bg-black">
+    <main className="relative min-h-screen w-screen overflow-x-hidden overflow-y-auto bg-black">
       {/* NavBar */}
       <div
         ref={navContainerRef}
@@ -402,7 +402,7 @@ const LandingPage = () => {
       </div>
 
       {/* Hero */}
-      <div className="relative h-dvh w-screen overflow-hidden bg-white">
+      <section className="relative h-dvh w-screen overflow-hidden bg-white">
         <div
           id="video-frame"
           className="relative z-10 h-dvh w-screen overflow-hidden rounded-3xl bg-gray-900"
@@ -444,10 +444,10 @@ const LandingPage = () => {
         <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
           G<b>A</b>MING
         </h1>
-      </div>
+      </section>
 
       {/* About */}
-      <div id="about" className="min-h-screen w-screen overflow-hidden bg-white">
+      <section id="about" className="min-h-screen w-screen overflow-hidden bg-white">
         <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
           <p className="font-anton text-sm uppercase md:text-[10px] text-black">
             Welcome to Zentry
@@ -468,7 +468,7 @@ const LandingPage = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Features */}
       <section className="bg-black pb-52">
@@ -559,7 +559,7 @@ const LandingPage = () => {
       </section>
 
       {/* Story */}
-      <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
+      <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
         <div className="flex size-full flex-col items-center py-10 pb-24">
           <p className="font-anton text-sm uppercase md:text-[10px]">
             the multiversal ip world
@@ -631,7 +631,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Footer */}
       <footer className="w-screen bg-[#5542ff] py-4 text-black">

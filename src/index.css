@@ -86,6 +86,7 @@
     /* Landing Page specific body styles */
     width: 100dvw;
     overflow-x: hidden;
+    overflow-y: auto;
     font-family: "Inter", sans-serif;
   }
 }

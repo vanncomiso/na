@@ -44,7 +44,7 @@ function Router() {
 
 function App() {
   return (
-    <div className="h-screen bg-sidebar overflow-hidden">
+    <div className="min-h-screen bg-sidebar">
       <ThemeProvider defaultTheme="dark" attribute="class">
         <AuthProvider>
           <Router />
