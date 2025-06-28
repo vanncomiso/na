@@ -30,4 +30,5 @@ export interface CreateDataFormData {
   type: DataType
   tags: string[]
   metadata: Record<string, any>
+  project_id?: string
 }

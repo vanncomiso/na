@@ -220,6 +220,9 @@ export function Playground() {
                     side="right" 
                     className="w-full sm:max-w-md p-0 bg-background border-sidebar-border"
                   >
+                    <SheetHeader className="sr-only">
+                      <SheetTitle>Settings</SheetTitle>
+                    </SheetHeader>
                     <SettingsPanel />
                   </SheetContent>
                 </Sheet>
